@@ -1,0 +1,63 @@
+
+# Gradle
+.gradle/
+**/build/
+.kotlin/
+.gradle-cache/
+
+# Local Android configuration
+local.properties
+**/local.properties
+.externalNativeBuild/
+.cxx/
+captures/
+
+# Android Studio / IntelliJ IDEA
+*.iml
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/shelf/
+.idea/tasks.xml
+.idea/deploymentTargetSelector.xml
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Local IDE configuration
+.idea/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+
+# Signing and secrets
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+*.mobileprovision
+.env
+.env.*
+!.env.example
+secrets.properties
+**/secrets.properties
+google-services.json
+
+# Local output
+*.apk
+*.aab
+*.ap_
+
+# Gradle Wrapper binary
+/gradle/wrapper/gradle-wrapper.jar
